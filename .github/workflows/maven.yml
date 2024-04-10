@@ -31,3 +31,12 @@ jobs:
       run: mvn clean package
     - name: Run script
       run: echo "successful"
+    - name: Build & push Docker image
+      uses: mr-smithers-excellent/docker-build-push@v5
+      with:
+          image:  sairammojjada82/springboot-image-sample
+          tags: latest
+          registry: docker.io
+          dockerfile: Dockerfile
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
