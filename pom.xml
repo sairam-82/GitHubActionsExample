@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.sairam</groupId>
 	<artifactId>springbootCicdDocker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<name>springbootCicdDocker</name>
 	<description>Demo project for Spring Boot ,cicd, docker</description>
 	<properties>
