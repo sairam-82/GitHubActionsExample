@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sairam</groupId>
-	<artifactId>springboot-cicd-docker</artifactId>
+	<artifactId>springbootCicdDocker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-cicd-docker</name>
+	<name>springbootCicdDocker</name>
 	<description>Demo project for Spring Boot ,cicd, docker</description>
 	<properties>
 		<java.version>21</java.version>
