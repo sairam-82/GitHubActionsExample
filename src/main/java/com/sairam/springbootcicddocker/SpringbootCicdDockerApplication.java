@@ -10,13 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringbootCicdDockerApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootCicdDockerApplication.class, args);
 	}
 
+
+
 	@GetMapping("/about")
-	public String getAbout(@RequestParam String info){
+	public String getAboutRes(@RequestParam String info){
 		return "Responding from docker container "+info;
 	}
 }
